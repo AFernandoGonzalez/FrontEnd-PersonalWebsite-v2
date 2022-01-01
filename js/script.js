@@ -1,3 +1,19 @@
+// Navbar
+const hamburger = document.querySelector('.hamburger');
+const toggleMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', function () {
+    this.classList.toggle('is-active');
+    // this.classList.toggle('show-nav');
+})
+
+toggleMenu.addEventListener('click', function () {
+    // this.classList.toggle('is-active');
+    this.classList.toggle('show-nav');
+})
+
+
+
 // Portfolio Section
 const panels = document.querySelectorAll('.panel')
 
